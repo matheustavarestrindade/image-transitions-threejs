@@ -1,9 +1,10 @@
 {
-    "name": "transition_lib",
+    "name": "image-transition-threejs",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "dist/src/index.js",
     "scripts": {
+        "deploy": "npx tsc && npm publish --access public",
         "build": "webpack --config ./bundler/webpack.prod.js",
         "dev": "webpack serve --config ./bundler/webpack.dev.js"
     },

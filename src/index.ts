@@ -82,3 +82,5 @@ async function main() {
 }
 
 main();
+
+export { ImageTransition, ZoomBlurTransition, BurningTransition, CurlNoisesTransition, HexTransition, PerlinTransition, PixelsTransition };

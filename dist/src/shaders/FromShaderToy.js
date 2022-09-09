@@ -1,0 +1,3 @@
+import { DebugGLSLCode } from "./debug/DigitsToConsoleDebug";
+export var FromShaderToy = function (content, debugMode) { return "\n    uniform vec3 iResolution;\n    uniform float iTime;\n    uniform sampler2D firstTexture;\n    uniform sampler2D secondTexture;\n\n    ".concat(debugMode ? DebugGLSLCode : "", "\n\n    ").concat(content, "\n\n    void main() {\n        mainImage(gl_FragColor, gl_FragCoord.xy);\n    }\n"); };
+//# sourceMappingURL=FromShaderToy.js.map
