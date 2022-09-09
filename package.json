@@ -1,6 +1,6 @@
 {
     "name": "image-transition-threejs",
-    "version": "1.0.0",
+    "version": "1.0.01",
     "description": "Image transition lib to facilitate the creation of image transition effects using three.js",
     "main": "dist/src/index.js",
     "scripts": {
