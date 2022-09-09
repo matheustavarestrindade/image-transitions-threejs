@@ -1,15 +1,20 @@
 {
     "name": "image-transition-threejs",
     "version": "1.0.0",
-    "description": "",
+    "description": "Image transition lib to facilitate the creation of image transition effects using three.js",
     "main": "dist/src/index.js",
     "scripts": {
         "deploy": "npx tsc && npm publish --access public",
         "build": "webpack --config ./bundler/webpack.prod.js",
         "dev": "webpack serve --config ./bundler/webpack.dev.js"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "shaders",
+        "threejs",
+        "image",
+        "transition"
+    ],
+    "author": "Matheus Tavares",
     "license": "ISC",
     "devDependencies": {
         "@types/dat.gui": "^0.7.7",
